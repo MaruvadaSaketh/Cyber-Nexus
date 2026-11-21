@@ -1,0 +1,11 @@
+.env
+__pycache__/
+.venv/
+venv/
+*.pyc
+.pytest_cache/
+
+# Large data and generated artifacts
+SupplyChainIQ/datasets/*.csv
+SupplyChainIQ/backend/data/
+SupplyChainIQ/backend/risk_model.json
